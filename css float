@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS float</title>
+    <style>
+        div {
+            display: inline-block;
+            width: 40%;
+        }
+    p {
+        font-size: 2em;
+    }
+
+    .cat {
+        float: left;
+        background-color: aquamarine;
+    }
+
+    .dog {
+        float: right;
+        background-color: coral;
+    }
+
+    img {
+        float: left;
+    }
+
+    footer {
+        clear: both;
+        text-align: center;
+        background-color: blueviolet;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="cat">
+        <h2>catCSS</h2>
+
+        <img src="cat.jpg.jpeg" alt="cat in a box" />
+        <p class="first-paragraph"> nap all day cat dog hate mouse eat string barf pillow no bats hate everything but kitty poochy. sleep on keyboard toy
+            mouse squeak roll over. mesmerizing birds. poop on grasses lickd pows destroy couch intenty sniff hand. the dog
+            smells
+        bad gnaw the corn cob.</p>
+    </div>
+
+    <div class="dog">
+        <h2>dogCSS</h2>
+        <img src="dog.jpg.jpeg" alt="dogs in a box" />
+        <p class ="second-paragraph">nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty
+            poochy. sleep on keyboard
+            toy
+            mouse squeak roll over. mesmerizing birds. poop on grasses licks paws destroy couch intently sniff hand. the dog
+            smells
+        bad gnaw the corn cob.. </p>
+    </div>
+
+    <footer>copyrigh. this is the footer</footer>
+</body>
+
+</html>
